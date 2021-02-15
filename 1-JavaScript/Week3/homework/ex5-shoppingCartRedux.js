@@ -12,8 +12,13 @@ it pure. Do the following:
 4. When constructing the new shopping cart array you should make use of the ES5 
    spread syntax.
 ------------------------------------------------------------------------------*/
-function addToShoppingCart(/* TODO parameter(s) go here */) {
+function addToShoppingCart(arr, strGrocery) {
   // TODO complete this function
+  const tempArr = [...arr, strGrocery];
+  if (tempArr.length > 3) {
+    tempArr.shift();
+  }
+  return tempArr;
 }
 
 const shoppingCart = ['bananas', 'milk'];

@@ -20,13 +20,28 @@ instead!
    Use `console.log` to display the result.
 -----------------------------------------------------------------------------*/
 const cartForParty = {
-  // TODO complete this object
+  // TODO complete this function
+  beers: 1.75,
+  chips: 0.99,
+  tuc: 0.79,
+  popcorn: 0.98,
+  pistachenoten: 2.99,
 };
 
-function calculateTotalPrice(/* TODO parameter(s) go here */) {
+function calculateTotalPrice(object) {
   // TODO replace this comment with your code
+  let amount = 0;
+  for (const key in object) {
+    if (Object.hasOwnProperty.call(object, key)) {
+      const element = object[key];
+      amount += element;
+    }
+  }
+  amount = (Math.round(amount * 100) / 100).toFixed(2);
+  console.log(`Total: €${amount}`);
+  return `Total: €${amount}`;
 }
-
+calculateTotalPrice(cartForParty);
 // this is one example, you will need to write a different object
 calculateTotalPrice({
   apples: 12,

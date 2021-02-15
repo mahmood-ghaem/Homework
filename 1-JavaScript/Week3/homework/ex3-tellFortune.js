@@ -3,7 +3,7 @@
 Why pay a fortune teller when you can just program your fortune yourself?
 
 1. Create four arrays, `numKids`, `partnerNames`, `locations` and `jobTitles`. 
-   Give each array five random values that have to do with the name of 
+   Give each array five random string values that have to do with the name of 
    the variable.
 
 2. Complete the function `selectRandomly`. This function should take an array 
@@ -16,7 +16,7 @@ Why pay a fortune teller when you can just program your fortune yourself?
    - It should use the `selectRandomly` function to randomly select values from 
      the arrays.
    - It should return a string: "You will be a `jobTitle` in `location`, 
-    married to `partnerName` with `numKids` kids."
+    married to `partnerName` with `numKids`."
 
 4. Call the function three times, passing the arrays as arguments. Use `
    console.log` to display the results.
@@ -27,28 +27,67 @@ body, this code is now written once only in a separated function.
 -----------------------------------------------------------------------------*/
 const numKids = [
   // TODO add elements here
+  '3',
+  '2',
+  '5',
+  '1',
+  '0',
 ];
 
 const partnerNames = [
   // TODO add elements here
+  'Sofia',
+  'Julia',
+  'Maria',
+  'Janet',
+  'Sara',
 ];
 
 const locations = [
   // TODO add elements here
+  'Madrid',
+  'California',
+  'Amsterdam',
+  'London',
+  'Berlin',
 ];
 
 const jobTitles = [
   // TODO add elements here
+  'Web Developer',
+  'Web Master',
+  'IT Professional',
+  'SQL Administrator',
+  'Data Analyser',
 ];
 
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
-function selectRandomly(/* TODO parameter(s) go here */) {
+function selectRandomly(arr) {
   // TODO complete this function
+  const randomNumber = Math.floor(Math.random() * arr.length);
+  return arr[randomNumber];
 }
 
-function tellFortune(/* add parameter(s) here */) {
+function tellFortune(numKidsArr, partnerNamesArr, locationsArr, jobTitlesArr) {
   // TODO complete this function
+  const numKidsValue = selectRandomly(numKidsArr);
+  const partnerNamesValue = selectRandomly(partnerNamesArr);
+  const locationsValue = selectRandomly(locationsArr);
+  const jobTitlesValue = selectRandomly(jobTitlesArr);
+
+  const message =
+    'You will be a ' +
+    jobTitlesValue +
+    ' in ' +
+    locationsValue +
+    ', married to ' +
+    partnerNamesValue +
+    ' with ' +
+    numKidsValue +
+    ' kids.';
+
+  return message;
 }
 
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));

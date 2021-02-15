@@ -1,0 +1,98 @@
+{
+  "node": "v14.15.4",
+  "system": {
+    "manufacturer": "Hewlett-Packard",
+    "model": "HP Compaq Pro 6300 MT"
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i7-3770",
+    "speed": 3.4
+  },
+  "memory": "32 GB",
+  "osInfo": {
+    "platform": "win32",
+    "distro": "Microsoft Windows 10 Pro",
+    "release": "10.0.18363"
+  },
+  "blockDevices": [
+    {
+      "name": "C:",
+      "size": "500 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    },
+    {
+      "name": "D:",
+      "size": "500 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    },
+    {
+      "name": "E:",
+      "size": "480 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    },
+    {
+      "name": "F:",
+      "size": "480 GB",
+      "fsType": "ntfs",
+      "physical": "Local"
+    }
+  ],
+  "vscodeInfo": {
+    "version": "1.53.2",
+    "extensions": [
+      "aaron-bond.better-comments",
+      "bierner.github-markdown-preview",
+      "bierner.markdown-checkbox",
+      "bierner.markdown-emoji",
+      "bierner.markdown-preview-github-styles",
+      "bierner.markdown-yaml-preamble",
+      "CoenraadS.bracket-pair-colorizer",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "formulahendry.code-runner",
+      "hdg.live-html-previewer",
+      "msjsdiag.debugger-for-chrome",
+      "ritwickdey.live-sass",
+      "ritwickdey.LiveServer",
+      "streetsidesoftware.code-spell-checker",
+      "techer.open-in-browser"
+    ],
+    "userSettings": {
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true,
+      "editor.minimap.enabled": false,
+      "editor.renderIndentGuides": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "files.autoSave": "onFocusChange",
+      "prettier.singleQuote": true,
+      "prettier.trailingComma": "all",
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "cSpell.userWords": [
+        "BROMPTON",
+        "Spotify",
+        "adyen",
+        "alert",
+        "mahmood",
+        "pistachenoten",
+        "salam",
+        "top"
+      ],
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      }
+    }
+  }
+}

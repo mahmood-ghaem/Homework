@@ -10,12 +10,8 @@ Let's rewrite it (or _refactor_ it, as professional developers would call it):
 ------------------------------------------------------------------------------*/
 function doubleEvenNumbers(numbers) {
   // TODO rewrite the function body using `map` and `filter`.
-  const newNumbers = [];
-  for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 === 0) {
-      newNumbers.push(numbers[i] * 2);
-    }
-  }
+  const evens = numbers.filter((x) => x % 2 === 0);
+  const newNumbers = evens.map((x) => x * 2);
   return newNumbers;
 }
 

@@ -29,16 +29,25 @@ const mondayTasks = [
 
 const hourlyRate = 25;
 
-function computeEarnings(/* TODO parameter(s) go here */) {
+function computeEarnings(array, rate) {
   // TODO complete this function
+  const durations = array.map((x) => x.duration);
+  let earnings = 0;
+  durations.forEach((element) => {
+    earnings += element;
+  });
+  earnings /= 60;
+  earnings *= rate;
+  earnings = (Math.round(earnings * 100) / 100).toFixed(2);
+  return '€' + earnings;
 }
 
 // example use case 1
-const earnings = computeEarnings(mondayTasks, hourlyRate);
-console.log(`Total earnings: ${earnings}`); // -> "Total earnings: €187.5"
+const earnings1 = computeEarnings(mondayTasks, hourlyRate);
+console.log(`Total earnings: ${earnings1}`); // -> "Total earnings: €187.5"
 
 // example use case 2
-const earnings = computeEarnings(
+const earnings2 = computeEarnings(
   [
     {
       name: 'walked 3 dogs',
@@ -55,7 +64,7 @@ const earnings = computeEarnings(
   ],
   hourlyRate
 );
-console.log(`Total earnings: ${earnings}`); // -> "Total earnings: €212.5"
+console.log(`Total earnings: ${earnings2}`); // -> "Total earnings: €212.5"
 
 // ! Do not change or remove the code below
 module.exports = {

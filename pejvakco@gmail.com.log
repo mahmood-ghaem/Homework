@@ -47,3 +47,8 @@ ex6-totalCost.js:28:3 - Unknown word (pistachenoten)
 2021-02-16 12:42:48 info: -----------------------------------------
 2021-02-16 12:42:51 info: All unit tests passed.
 2021-02-16 12:42:54 info: All steps were completed successfully
+2021-02-16 12:48:39 info: -----------------------------------------
+2021-02-16 12:48:39 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-16 12:48:39 info: -----------------------------------------
+2021-02-16 12:48:42 info: All unit tests passed.
+2021-02-16 12:48:45 info: All steps were completed successfully

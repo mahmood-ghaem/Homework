@@ -99,3 +99,28 @@ ex3-lemonAllergy.js
 2021-02-16 12:05:56 info: --------------------------------------------
 2021-02-16 12:06:00 info: All unit tests passed.
 2021-02-16 12:06:02 info: All steps were completed successfully
+2021-02-16 12:53:12 info: -------------------------------------------------
+2021-02-16 12:53:12 info: >>> Running Unit Test `ex1-doubleEvenNumbers` <<<
+2021-02-16 12:53:12 info: -------------------------------------------------
+2021-02-16 12:53:15 info: All unit tests passed.
+2021-02-16 12:53:17 info: All steps were completed successfully
+2021-02-16 12:53:26 info: --------------------------------------------
+2021-02-16 12:53:26 info: >>> Running Unit Test `ex2-mondaysWorth` <<<
+2021-02-16 12:53:26 info: --------------------------------------------
+2021-02-16 12:53:29 info: All unit tests passed.
+2021-02-16 12:53:31 info: All steps were completed successfully
+2021-02-16 12:53:41 info: --------------------------------------------
+2021-02-16 12:53:41 info: >>> Running Unit Test `ex3-lemonAllergy` <<<
+2021-02-16 12:53:41 info: --------------------------------------------
+2021-02-16 12:53:44 info: All unit tests passed.
+2021-02-16 12:53:47 info: All steps were completed successfully
+2021-02-16 12:53:55 info: ------------------------------------------------
+2021-02-16 12:53:55 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-02-16 12:53:55 info: ------------------------------------------------
+2021-02-16 12:53:59 info: All unit tests passed.
+2021-02-16 12:54:01 info: All steps were completed successfully
+2021-02-16 12:54:15 info: ------------------------------------------------
+2021-02-16 12:54:15 info: >>> Running Unit Test `ex4-publishSubscribe` <<<
+2021-02-16 12:54:15 info: ------------------------------------------------
+2021-02-16 12:54:18 info: All unit tests passed.
+2021-02-16 12:54:21 info: All steps were completed successfully

@@ -1,0 +1,49 @@
+2021-02-16 12:39:23 info: ----------------------------------------------
+2021-02-16 12:39:23 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-16 12:39:23 info: ----------------------------------------------
+2021-02-16 12:39:26 info: All unit tests passed.
+2021-02-16 12:39:29 error: *** Spell Checker Report ***
+
+ex1-giveCompliment.js:43:17 - Unknown word (Mahmood)
+2021-02-16 12:39:58 info: ----------------------------------------------
+2021-02-16 12:39:58 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2021-02-16 12:39:58 info: ----------------------------------------------
+2021-02-16 12:40:01 info: All unit tests passed.
+2021-02-16 12:40:04 info: All steps were completed successfully
+2021-02-16 12:40:14 info: ----------------------------------------
+2021-02-16 12:40:14 info: >>> Running Unit Test `ex2-dogYears` <<<
+2021-02-16 12:40:14 info: ----------------------------------------
+2021-02-16 12:40:17 info: All unit tests passed.
+2021-02-16 12:40:20 info: All steps were completed successfully
+2021-02-16 12:40:29 info: -------------------------------------------
+2021-02-16 12:40:29 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2021-02-16 12:40:29 info: -------------------------------------------
+2021-02-16 12:40:32 info: All unit tests passed.
+2021-02-16 12:40:35 info: All steps were completed successfully
+2021-02-16 12:40:47 info: -------------------------------------------
+2021-02-16 12:40:47 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2021-02-16 12:40:47 info: -------------------------------------------
+2021-02-16 12:40:50 info: All unit tests passed.
+2021-02-16 12:40:53 info: All steps were completed successfully
+2021-02-16 12:41:23 info: --------------------------------------------
+2021-02-16 12:41:23 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2021-02-16 12:41:23 info: --------------------------------------------
+2021-02-16 12:41:27 info: All unit tests passed.
+2021-02-16 12:41:29 info: All steps were completed successfully
+2021-02-16 12:41:39 info: -------------------------------------------------
+2021-02-16 12:41:39 info: >>> Running Unit Test `ex5-shoppingCartRedux` <<<
+2021-02-16 12:41:39 info: -------------------------------------------------
+2021-02-16 12:41:42 info: All unit tests passed.
+2021-02-16 12:41:45 info: All steps were completed successfully
+2021-02-16 12:41:55 info: -----------------------------------------
+2021-02-16 12:41:55 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-16 12:41:55 info: -----------------------------------------
+2021-02-16 12:41:58 info: All unit tests passed.
+2021-02-16 12:42:01 error: *** Spell Checker Report ***
+
+ex6-totalCost.js:28:3 - Unknown word (pistachenoten)
+2021-02-16 12:42:48 info: -----------------------------------------
+2021-02-16 12:42:48 info: >>> Running Unit Test `ex6-totalCost` <<<
+2021-02-16 12:42:48 info: -----------------------------------------
+2021-02-16 12:42:51 info: All unit tests passed.
+2021-02-16 12:42:54 info: All steps were completed successfully

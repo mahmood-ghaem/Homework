@@ -14,11 +14,10 @@ it pure. Do the following:
 ------------------------------------------------------------------------------*/
 function addToShoppingCart(arr, strGrocery) {
   // TODO complete this function
-  const tempArr = [...arr, strGrocery];
-  if (tempArr.length > 3) {
-    tempArr.shift();
+  if (arr.length < 3) {
+    return [...arr, strGrocery];
   }
-  return tempArr;
+  return [...arr.slice(1), strGrocery];
 }
 
 const shoppingCart = ['bananas', 'milk'];

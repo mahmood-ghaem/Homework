@@ -30,13 +30,10 @@ const cartForParty = {
 
 function calculateTotalPrice(object) {
   // TODO replace this comment with your code
-  let amount = 0;
-  for (const key in object) {
-    if (Object.hasOwnProperty.call(object, key)) {
-      const element = object[key];
-      amount += element;
-    }
-  }
+  let amount = Object.values(object).reduce(
+    (totalPrice, price) => totalPrice + price,
+    0
+  );
   amount = (Math.round(amount * 100) / 100).toFixed(2);
   console.log(`Total: €${amount}`);
   return `Total: €${amount}`;

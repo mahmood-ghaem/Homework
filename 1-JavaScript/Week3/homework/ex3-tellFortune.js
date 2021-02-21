@@ -76,18 +76,7 @@ function tellFortune(numKidsArr, partnerNamesArr, locationsArr, jobTitlesArr) {
   const locationsValue = selectRandomly(locationsArr);
   const jobTitlesValue = selectRandomly(jobTitlesArr);
 
-  const message =
-    'You will be a ' +
-    jobTitlesValue +
-    ' in ' +
-    locationsValue +
-    ', married to ' +
-    partnerNamesValue +
-    ' with ' +
-    numKidsValue +
-    ' kids.';
-
-  return message;
+  return `You will be a ${jobTitlesValue} in ${locationsValue}, married to ${partnerNamesValue} with ${numKidsValue} kids.`;
 }
 
 console.log(tellFortune(numKids, partnerNames, locations, jobTitles));

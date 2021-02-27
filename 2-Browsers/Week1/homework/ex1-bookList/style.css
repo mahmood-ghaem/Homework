@@ -1,0 +1,19 @@
+#bookList ul {
+  display: flex;
+  list-style: none;
+}
+#bookList ul li {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+}
+#bookList ul li.read {
+  background-color: green;
+}
+#bookList ul li.unread {
+  background-color: red;
+}
+#bookList ul li img {
+  width: 320px;
+  height: 500px;
+}

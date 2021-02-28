@@ -35,6 +35,13 @@ function addCurrentTime() {
 // TODO execute `addCurrentTime` when the browser has completed loading the page
 
 function createDom() {
+  const googleFont = document.createElement('link');
+  googleFont.setAttribute(
+    'href',
+    'https://fonts.googleapis.com/css2?family=Orbitron&display=swap'
+  );
+  googleFont.setAttribute('rel', 'stylesheet');
+  document.head.appendChild(googleFont);
   const body = document.querySelector('body');
   body.style.background = 'black';
   const divClockContainer = document.createElement('div');

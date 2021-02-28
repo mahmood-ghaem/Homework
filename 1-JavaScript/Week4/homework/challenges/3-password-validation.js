@@ -36,16 +36,16 @@ const checkPassword = (passwordList) => {
   let result = '';
   passwordList.forEach((element) => {
     const count = characterCounter(element.password, element.letter);
-    const timesArray = element.times.split('-');
+    //const timesArray = element.times.split('-');
+    //-------------------------------After Frank's review-----------------------------------
+    const [minStr, maxStr] = element.times.split('-');
+    const min = parseInt(minStr, 10);
+    const max = parseInt(maxStr, 10);
     try {
-      if (
-        parseInt(timesArray[0]) <= count &&
-        count <= parseInt(timesArray[1])
-      ) {
-        console.log(timesArray[1], parseInt(timesArray[1]));
-        result += `'${element.password}' is VALID, ${element.letter} is present ${count} times and should have been present at least ${timesArray[0]} and at most ${timesArray[1]} times \n`;
+      if (min <= count && count <= max) {
+        result += `'${element.password}' is VALID, ${element.letter} is present ${count} times and should have been present at least ${min} and at most ${max} times \n`;
       } else {
-        result += `'${element.password}' is INVALID, ${element.letter} is present ${count} times and should have been present at least ${timesArray[0]} and at most ${timesArray[1]} times \n`;
+        result += `'${element.password}' is INVALID, ${element.letter} is present ${count} times and should have been present at least ${min} and at most ${max} times \n`;
       }
     } catch (error) {
       console.log(error);

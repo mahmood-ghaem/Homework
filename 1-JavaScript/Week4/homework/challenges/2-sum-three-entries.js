@@ -5,26 +5,43 @@ Once you have found those numbers, multiply the numbers and store the result of 
  */
 
 const list = [1721, 979, 366, 299, 675, 1456];
-let result;
 
 // Write your code here
 
-for (let i = 0; i < list.length - 2; i++) {
-  if (result === undefined) {
-    list.forEach((first) => {
-      if (result === undefined) {
-        list.forEach((second) => {
-          if (list[i] === first || list[i] === second || first === second) {
-            return;
-          } else if (list[i] + first + second === 2020) {
-            result = list[i] * first * second;
-            console.log(`${list[i]} * ${first} * ${second} = result`);
-          }
-        });
+// let result;
+// for (let i = 0; i < list.length - 2; i++) {
+//   if (result === undefined) {
+//     list.forEach((first) => {
+//       if (result === undefined) {
+//         list.forEach((second) => {
+//           if (list[i] === first || list[i] === second || first === second) {
+//             return;
+//           } else if (list[i] + first + second === 2020) {
+//             result = list[i] * first * second;
+//             console.log(`${list[i]} * ${first} * ${second} = result`);
+//           }
+//         });
+//       }
+//     });
+//   } else {
+//     return;
+//   }
+// }
+
+//-------------------------------After Frank's review-----------------------------------
+
+let result;
+for (let i = 0; i < list.length && result === undefined; i++) {
+  const firstNum = list[i];
+  for (let j = 0; j < list.length && result === undefined; j++) {
+    const secondNum = list[j];
+    for (let y = 0; y < list.length && result === undefined; y++) {
+      const thirdNum = list[y];
+      if (firstNum + secondNum + thirdNum === 2020) {
+        result = firstNum * secondNum * thirdNum;
+        console.log(`${firstNum} * ${secondNum} * ${thirdNum} = result`);
       }
-    });
-  } else {
-    return;
+    }
   }
 }
 

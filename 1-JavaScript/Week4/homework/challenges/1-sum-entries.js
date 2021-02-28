@@ -9,18 +9,34 @@ let result;
 
 // Write your code here
 
-for (let i = 0; i < list.length - 1; i++) {
-  if (result === undefined) {
-    list.forEach((element) => {
-      if (element === list[i]) {
-        return;
-      } else if (element + list[i] == 2020) {
-        result = element * list[i];
-        console.log(`${list[i]} * ${element} = result`);
-      }
-    });
-  } else {
-    return;
+// for (let i = 0; i < list.length - 1; i++) {
+//   if (result === undefined) {
+//     list.forEach((element) => {
+//       if (element === list[i]) {
+//         return;
+//       } else if (element + list[i] == 2020) {
+//         result = element * list[i];
+//         console.log(`${list[i]} * ${element} = result`);
+//       }
+//     });
+//   } else {
+//     return;
+//   }
+// }
+
+//-------------------------------After Frank's review-----------------------------------
+
+const listSize = list.length;
+
+for (let i = 0; i < listSize && result === undefined; i++) {
+  const firstElement = list[i];
+
+  for (let j = i; j < listSize && result === undefined; j++) {
+    const secondElement = list[j];
+    if (firstElement + secondElement == 2020) {
+      result = firstElement * secondElement;
+      console.log(`${firstElement} * ${secondElement} = result`);
+    }
   }
 }
 

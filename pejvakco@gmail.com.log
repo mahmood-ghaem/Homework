@@ -127,3 +127,32 @@ ex4-whatsTheTime/index.js
 2021-02-27 12:46:36 info: ---------------------------------------
 2021-02-27 12:46:42 info: All unit tests passed.
 2021-02-27 12:46:44 info: All steps were completed successfully
+2021-03-01 01:00:00 info: ------------------------------------------
+2021-03-01 01:00:00 info: >>> Running Unit Test `ex6-gameOfLife` <<<
+2021-03-01 01:00:00 info: ------------------------------------------
+2021-03-01 01:00:00 warn: A unit test file was not provided.
+2021-03-01 01:00:03 info: All steps were completed successfully
+2021-03-01 01:00:17 info: ------------------------------------------
+2021-03-01 01:00:17 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-03-01 01:00:17 info: ------------------------------------------
+2021-03-01 01:00:21 error: *** Unit Test Error Report ***
+
+- hijackLogo should set the `src` property
+- hijackLogo should set the `srcset` property
+
+2021-03-01 01:00:23 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:10:49 - Unknown word (Xdpd)
+ex3-hijackLogo.js:11:52 - Unknown word (hyflogo)
+ex3-hijackLogo.js:12:55 - Unknown word (hyflogo)
+
+2021-03-01 01:02:03 info: ------------------------------------------
+2021-03-01 01:02:03 info: >>> Running Unit Test `ex3-hijackLogo` <<<
+2021-03-01 01:02:03 info: ------------------------------------------
+2021-03-01 01:02:06 info: All unit tests passed.
+2021-03-01 01:02:09 error: *** Spell Checker Report ***
+
+ex3-hijackLogo.js:10:49 - Unknown word (Xdpd)
+ex3-hijackLogo.js:11:38 - Unknown word (hyflogo)
+ex3-hijackLogo.js:12:41 - Unknown word (hyflogo)
+

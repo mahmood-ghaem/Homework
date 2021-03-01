@@ -101,12 +101,15 @@ function createGame(context, numRows, numColumns) {
       if (numAlive === 2) {
         // Do nothing
         cell.nextAlive = cell.alive;
+        cell.lifeTime = cell.lifeTime + 1;
       } else if (numAlive === 3) {
         // Make alive
         cell.nextAlive = true;
+        cell.lifeTime = 1;
       } else {
         // Make dead
         cell.nextAlive = false;
+        cell.lifeTime = 0;
       }
     });
 

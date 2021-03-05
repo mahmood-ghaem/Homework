@@ -7,9 +7,17 @@
 ------------------------------------------------------------------------------*/
 function hijackGoogleLogo() {
   // TODO your code goes in here
-  const googleLogo = document.querySelector('.lnXdpd');
-  googleLogo.setAttribute('src', 'assets/img/logos/hyflogo.svg');
-  googleLogo.setAttribute('srcset', 'assets/img/logos/hyflogo.svg');
+  const googleLogo = () => {
+    const tempImages = document.querySelectorAll('img');
+    tempImages.forEach((element) => {
+      if (element.alt === 'Google') {
+        return element;
+      }
+    });
+  };
+
+  googleLogo.src = 'assets/img/logos/hyflogo.svg';
+  googleLogo.srcset = 'assets/img/logos/hyflogo.svg';
 }
 
 hijackGoogleLogo();

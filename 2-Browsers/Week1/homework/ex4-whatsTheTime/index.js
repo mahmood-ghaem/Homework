@@ -13,23 +13,23 @@ function addCurrentTime() {
   let s = date.getSeconds();
   let session = 'AM';
 
-  if (h === 0) {
-    h = 12;
-  }
-
   if (h > 12) {
     h = h - 12;
     session = 'PM';
   }
 
-  h = h < 10 ? '0' + h : h;
-  m = m < 10 ? '0' + m : m;
-  s = s < 10 ? '0' + s : s;
-
-  const time = h + ':' + m + ':' + s + ' ' + session;
+  const time = function (h, m, s) {
+    let returnValue = [];
+    for (var i = 0; i < arguments.length; i++) {
+      let tempVar = arguments[i];
+      tempVar = tempVar < 10 ? '0' + tempVar : tempVar;
+      returnValue.push(tempVar);
+    }
+    return returnValue.join(':') + ' ' + session;
+  };
 
   const divClockContainer = document.getElementById('divClockContainer');
-  divClockContainer.innerText = time;
+  divClockContainer.textContent = time(h, m, s);
 }
 
 // TODO execute `addCurrentTime` when the browser has completed loading the page

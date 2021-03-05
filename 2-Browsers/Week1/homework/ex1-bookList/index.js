@@ -31,9 +31,7 @@ class DomElement {
   }
   addChild(child) {
     if (Array.isArray(child)) {
-      child.forEach((element) => {
-        this.child.push(element);
-      });
+      this.child = [...child];
     } else {
       this.child.push(child);
     }
@@ -49,10 +47,9 @@ class DomElement {
     if (this.tagId !== '') {
       this.domObject.id = this.tagId;
     }
-    this.domObject.innerHTML = this.content;
+    this.domObject.textContent = this.content;
     if (this.child.length > 0) {
       this.child.forEach((element) => {
-        console.log(element);
         this.domObject.appendChild(element);
       });
     }

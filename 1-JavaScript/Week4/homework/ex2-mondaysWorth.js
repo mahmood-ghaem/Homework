@@ -33,11 +33,9 @@ function computeEarnings(array, rate) {
   // TODO complete this function
   const durations = array.map((x) => x.duration);
   let earnings = 0;
-  durations.forEach((element) => {
-    earnings += element;
+  durations.forEach((minutes) => {
+    earnings += (minutes / 60) * rate;
   });
-  earnings /= 60;
-  earnings *= rate;
   earnings = (Math.round(earnings * 100) / 100).toFixed(2);
   return '€' + earnings;
 }

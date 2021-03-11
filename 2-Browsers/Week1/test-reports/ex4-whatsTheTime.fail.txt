@@ -1,0 +1,22 @@
+*** Unit Test Error Report ***
+
+- whatsTheTime HTML should be syntactically valid
+  inline
+    12:226  error  Duplicate ID "divClockContainer"  no-dup-id
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+*** ESLint Report ***
+
+ex4-whatsTheTime/index.js
+  17:5   error    'h' is constant                                         no-const-assign
+  21:26  error    'h' is defined but never used                           no-unused-vars
+  21:29  error    'm' is defined but never used                           no-unused-vars
+  21:32  error    's' is defined but never used                           no-unused-vars
+  22:9   warning  'returnValue' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+  23:10  error    Unexpected var, use let or const instead                no-var
+
+✖ 6 problems (5 errors, 1 warning)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+

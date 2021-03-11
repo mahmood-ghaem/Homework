@@ -9,3 +9,15 @@
 ------------------------------------------------------------------------------*/
 
 // TODO add your JavaScript code here.
+
+(function main() {
+  const body = document.querySelector('body');
+  body.style.fontFamily = 'Arial, sans-serif';
+  const liTags = document.querySelectorAll('li');
+  liTags.forEach((element) => {
+    element.classList.add('list-item');
+  });
+  document.getElementById('nickname').textContent = 'Mahmood';
+  document.getElementById('fav-food').textContent = 'Steak';
+  document.getElementById('hometown').textContent = 'Alphen aan den Rijn';
+})();

@@ -15,8 +15,63 @@
    for 5 seconds, and then replace the img with the original image and have it 
    continue the walk.
 -----------------------------------------------------------------------------*/
+const catImage = document.querySelector('img');
+let counter = 0;
+let windowWidth;
+let interval;
+let isDancing = false;
+
+function startInterval() {
+  interval = setInterval(catWalk, 50);
+}
+function stopInterval() {
+  clearInterval(interval);
+}
+function catDancing() {
+  isDancing = true;
+  catImage.setAttribute('src', 'assets/tenor.gif');
+  stopInterval();
+  setTimeout(catWalking, 5000);
+}
+function catWalking() {
+  isDancing = false;
+  catImage.setAttribute(
+    'src',
+    'http://www.anniemation.com/clip_art/images/cat-walk.gif'
+  );
+  startInterval();
+}
 function catWalk() {
   // TODO complete this function
+  counter += 10;
+  catImage.style.left = `${counter}px`;
+  const rect = catImage.getBoundingClientRect();
+  if (
+    counter > windowWidth / 2 - 10 - catImage.width / 2 &&
+    counter < windowWidth / 2 + 10 - catImage.width / 2
+  ) {
+    counter += 10;
+    catDancing();
+  }
+  if (rect.right > windowWidth - 10) {
+    counter = 0;
+  }
 }
 
 // TODO execute `catWalk` when the browser has completed loading the page
+
+function initialize() {
+  windowWidth = window.innerWidth;
+  const body = document.querySelector('body');
+  body.style.margin = '0px';
+  catWalking();
+}
+
+window.addEventListener('load', initialize);
+window.addEventListener('resize', () => {
+  windowWidth = window.innerWidth;
+  if (isDancing) {
+    counter = windowWidth / 2 - catImage.width / 2 + 20;
+    catImage.style.left = `${windowWidth / 2 - catImage.width / 2}px`;
+  }
+});

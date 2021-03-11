@@ -20,7 +20,7 @@ function addCurrentTime() {
 
   const time = function (h, m, s) {
     let returnValue = [];
-    for (var i = 0; i < arguments.length; i++) {
+    for (let i = 0; i < arguments.length; i++) {
       let tempVar = arguments[i];
       tempVar = tempVar < 10 ? '0' + tempVar : tempVar;
       returnValue.push(tempVar);

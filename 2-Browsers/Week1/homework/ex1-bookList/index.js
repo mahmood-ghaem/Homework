@@ -31,7 +31,7 @@ class DomElement {
   }
   addChild(child) {
     if (Array.isArray(child)) {
-      this.child = [...child];
+      this.child = this.child.concat([...child]);
     } else {
       this.child.push(child);
     }

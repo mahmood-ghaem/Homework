@@ -1,0 +1,113 @@
+2021-03-20 12:20:54 info: ---------------------------------------
+2021-03-20 12:20:54 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 12:20:54 info: ---------------------------------------
+2021-03-20 12:20:58 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Homework\test-runner\CustomReporter.js"
+Error: expect(received).rejects.toBeInstanceOf()
+
+Received promise resolved instead of rejected
+Resolved to value: undefined
+    at expect (C:\Homework\node_modules\expect\build\index.js:134:15)
+    at Object.<anonymous> (C:\Homework\3-UsingAPIs\Week1\unit-tests\ex1-johnWho.test.js:62:12)
+    at Object.asyncJestTest (C:\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+
+2021-03-20 12:21:00 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  10:7  warning  Identifier 'getAnonName_old' is not in camelCase      hyf/camelcase
+  10:7  error    'getAnonName_old' is assigned a value but never used  no-unused-vars
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-03-20 12:24:28 info: ---------------------------------------
+2021-03-20 12:24:28 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 12:24:28 info: ---------------------------------------
+2021-03-20 12:24:32 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Homework\test-runner\CustomReporter.js"
+Error: expect(received).rejects.toBeInstanceOf()
+
+Received promise resolved instead of rejected
+Resolved to value: undefined
+    at expect (C:\Homework\node_modules\expect\build\index.js:134:15)
+    at Object.<anonymous> (C:\Homework\3-UsingAPIs\Week1\unit-tests\ex1-johnWho.test.js:62:12)
+    at Object.asyncJestTest (C:\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+
+2021-03-20 12:24:33 error: *** ESLint Report ***
+
+ex1-johnWho.js
+  10:7  warning  Identifier 'getAnonName_old' is not in camelCase      hyf/camelcase
+  10:7  error    'getAnonName_old' is assigned a value but never used  no-unused-vars
+
+✖ 2 problems (1 error, 1 warning)
+
+
+2021-03-20 12:33:51 info: ---------------------------------------
+2021-03-20 12:33:51 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 12:33:51 info: ---------------------------------------
+2021-03-20 12:33:54 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Homework\test-runner\CustomReporter.js"
+Error: expect(received).rejects.toBeInstanceOf()
+
+Received promise resolved instead of rejected
+Resolved to value: undefined
+    at expect (C:\Homework\node_modules\expect\build\index.js:134:15)
+    at Object.<anonymous> (C:\Homework\3-UsingAPIs\Week1\unit-tests\ex1-johnWho.test.js:62:12)
+    at Object.asyncJestTest (C:\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+
+2021-03-20 01:10:22 info: ---------------------------------------
+2021-03-20 01:10:22 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 01:10:22 info: ---------------------------------------
+2021-03-20 01:10:26 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-johnWho --silent false --verbose false --reporters="C:\Homework\test-runner\CustomReporter.js"
+Error: You didn't pass in a first name!
+    at C:\Homework\3-UsingAPIs\Week1\homework\ex1-johnWho.js:13:29
+    at new Promise (<anonymous>)
+    at getAnonName (C:\Homework\3-UsingAPIs\Week1\homework\ex1-johnWho.js:11:3)
+    at Object.<anonymous> (C:\Homework\3-UsingAPIs\Week1\unit-tests\ex1-johnWho.test.js:60:21)
+    at Object.asyncJestTest (C:\Homework\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (<anonymous>)
+    at mapper (C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at C:\Homework\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+
+2021-03-20 01:41:39 info: ---------------------------------------
+2021-03-20 01:41:39 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 01:41:39 info: ---------------------------------------
+2021-03-20 01:41:42 error: *** Unit Test Error Report ***
+
+- getAnonName should take a single argument
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: John
+
+2021-03-20 01:42:51 info: ---------------------------------------
+2021-03-20 01:42:51 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-20 01:42:51 info: ---------------------------------------
+2021-03-20 01:42:55 error: *** Unit Test Error Report ***
+
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: John
+
+2021-03-20 01:44:00 info: -------------------------------------------------
+2021-03-20 01:44:00 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-20 01:44:00 info: -------------------------------------------------
+2021-03-20 01:44:04 info: All unit tests passed.
+2021-03-20 01:44:06 info: All steps were completed successfully

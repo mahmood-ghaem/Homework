@@ -1,5 +1,0 @@
-*** Unit Test Error Report ***
-
-- getAnonName should return a resolved promise when called with a string argument
-  Expected: John Doe
-  Received: John

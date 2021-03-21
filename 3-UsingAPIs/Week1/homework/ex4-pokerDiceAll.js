@@ -18,9 +18,9 @@ Can you explain why? Please add your answer as a comment to the end of the exerc
 const rollDice = require('../../helpers/pokerDiceRoller');
 
 function rollTheDices() {
-  // TODO Refactor this function
   const dices = [1, 2, 3, 4, 5];
-  return rollDice(1);
+  const promises = dices.map((dice) => rollDice(dice));
+  return Promise.all(promises);
 }
 
 rollTheDices()

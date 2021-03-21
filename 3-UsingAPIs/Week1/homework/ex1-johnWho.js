@@ -10,7 +10,7 @@ Rewrite this function, but replace the callback syntax with the Promise syntax:
 const getAnonName = (firstName) =>
   new Promise((resolve, reject) => {
     if (!firstName) {
-      return reject(new Error("You didn't pass in a first name!"));
+      reject(new Error("You didn't pass in a first name!"));
     }
     setTimeout(() => resolve(firstName), 1000);
   });

@@ -1,0 +1,8 @@
+
+*** ESLint Report ***
+
+ex5-rollDiceChain.js
+  29:7  error  Parsing error: Identifier 'rollDice' has already been declared
+
+✖ 1 problem (1 error, 0 warnings)
+

@@ -9,14 +9,17 @@ Rewrite this function, but replace the callback syntax with the Promise syntax:
 // TODO see above
 const getAnonName = (firstName) =>
   new Promise((resolve, reject) => {
-    if (!firstName) {
-      reject(new Error("You didn't pass in a first name!"));
-    }
-    setTimeout(() => resolve(firstName), 1000);
+    setTimeout(() => {
+      if (!firstName) {
+        reject(new Error("You didn't pass in a first name!"));
+      } else {
+        resolve(`${firstName} Doe`);
+      }
+    });
   });
 
 getAnonName('John')
-  .then((output) => console.log(`${output} Doe`))
+  .then((output) => console.log(output))
   .catch(console.log);
 
 // ! Do not change or remove the code below

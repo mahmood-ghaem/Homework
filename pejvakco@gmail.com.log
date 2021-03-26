@@ -149,3 +149,17 @@ ex5-rollDiceChain.js
 2021-03-26 10:47:12 info: ---------------------------------------------
 2021-03-26 10:47:12 warn: A unit test file was not provided.
 2021-03-26 10:47:32 info: All steps were completed successfully
+2021-03-26 09:50:57 info: ---------------------------------------
+2021-03-26 09:50:57 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-26 09:50:57 info: ---------------------------------------
+2021-03-26 09:51:02 error: *** Unit Test Error Report ***
+
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: John
+
+2021-03-26 09:56:40 info: ---------------------------------------
+2021-03-26 09:56:40 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-26 09:56:40 info: ---------------------------------------
+2021-03-26 09:56:43 info: All unit tests passed.
+2021-03-26 09:57:03 info: All steps were completed successfully

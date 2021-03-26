@@ -26,11 +26,13 @@ function rollTheDices() {
 }
 rollTheDices();
 //===================================================================
+
 const rollDiceDry = require('../../helpers/pokerDiceRoller');
 
 function rollTheDicesDry() {
   const results = [];
   // pushAndRoll is two arrow functions. 'value' filled by previous call pushAndRoll by return
+  // This function has been improved with Jim tips and guide
   const pushAndRoll = (dice) => (value) => {
     results.push(value);
     return rollDiceDry(dice);

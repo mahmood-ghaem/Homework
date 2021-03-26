@@ -42,3 +42,6 @@ rollDice((error, value) => {
 
 // ! Do not change or remove the code below
 module.exports = rollDice;
+
+// In promise version => if there is an error we don't get `Success!`
+// In callback version => if there is an error we always get `Success!`

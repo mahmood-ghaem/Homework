@@ -108,3 +108,9 @@ ex5-rollDiceChain.js
 ✖ 1 problem (1 error, 0 warnings)
 
 
+2021-03-26 12:43:49 info: --------------------------------------------
+2021-03-26 12:43:49 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-26 12:43:49 info: --------------------------------------------
+2021-03-26 12:43:49 info: Exercise has not yet been modified
+2021-03-26 12:43:52 info: All unit tests passed.
+2021-03-26 12:44:10 info: All steps were completed successfully

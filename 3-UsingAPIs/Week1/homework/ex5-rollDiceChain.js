@@ -26,16 +26,16 @@ function rollTheDices() {
 }
 rollTheDices();
 //===================================================================
-const rollDice = require('../../helpers/pokerDiceRoller');
+const rollDiceDry = require('../../helpers/pokerDiceRoller');
 
 function rollTheDicesDry() {
   const results = [];
   // pushAndRoll is two arrow functions. 'value' filled by previous call pushAndRoll by return
   const pushAndRoll = (dice) => (value) => {
     results.push(value);
-    return rollDice(dice);
+    return rollDiceDry(dice);
   };
-  rollDice(1)
+  rollDiceDry(1)
     .then(pushAndRoll(2))
     .then(pushAndRoll(3))
     .then(pushAndRoll(4))

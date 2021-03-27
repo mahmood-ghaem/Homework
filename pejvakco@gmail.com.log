@@ -1,0 +1,165 @@
+2021-03-21 06:08:07 info: --------------------------------------------
+2021-03-21 06:08:07 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 06:08:07 info: --------------------------------------------
+2021-03-21 06:08:07 info: Exercise has not yet been modified
+2021-03-21 06:08:08 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex4-pokerDiceAll --silent false --verbose false --reporters="C:\New folder\Homework\test-runner\CustomReporter.js"
+Error: Could not resolve a module for a custom reporter.
+  Module name: C:\New
+    at C:\New folder\Homework\node_modules\jest-config\build\normalize.js:558:15
+    at Array.map (<anonymous>)
+    at normalizeReporters (C:\New folder\Homework\node_modules\jest-config\build\normalize.js:540:33)
+    at normalize (C:\New folder\Homework\node_modules\jest-config\build\normalize.js:633:5)
+    at readConfig (C:\New folder\Homework\node_modules\jest-config\build\index.js:224:68)
+    at async readConfigs (C:\New folder\Homework\node_modules\jest-config\build\index.js:406:26)
+    at async runCLI (C:\New folder\Homework\node_modules\@jest\core\build\cli\index.js:230:59)
+    at async Object.run (C:\New folder\Homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js:163:37)
+
+2021-03-21 06:08:26 error: *** Spell Checker Report ***
+
+
+2021-03-21 06:08:57 info: ----------------------------------------
+2021-03-21 06:08:57 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-03-21 06:08:57 info: ----------------------------------------
+2021-03-21 06:08:57 info: Exercise has not yet been modified
+2021-03-21 06:08:58 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex3-rollDice --silent false --verbose false --reporters="C:\New folder\Homework\test-runner\CustomReporter.js"
+Error: Could not resolve a module for a custom reporter.
+  Module name: C:\New
+    at C:\New folder\Homework\node_modules\jest-config\build\normalize.js:558:15
+    at Array.map (<anonymous>)
+    at normalizeReporters (C:\New folder\Homework\node_modules\jest-config\build\normalize.js:540:33)
+    at normalize (C:\New folder\Homework\node_modules\jest-config\build\normalize.js:633:5)
+    at readConfig (C:\New folder\Homework\node_modules\jest-config\build\index.js:224:68)
+    at async readConfigs (C:\New folder\Homework\node_modules\jest-config\build\index.js:406:26)
+    at async runCLI (C:\New folder\Homework\node_modules\@jest\core\build\cli\index.js:230:59)
+    at async Object.run (C:\New folder\Homework\node_modules\jest\node_modules\jest-cli\build\cli\index.js:163:37)
+
+2021-03-21 06:09:15 error: *** Spell Checker Report ***
+
+
+2021-03-21 06:10:18 info: ----------------------------------------
+2021-03-21 06:10:18 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-03-21 06:10:18 info: ----------------------------------------
+2021-03-21 06:10:18 info: Exercise has not yet been modified
+2021-03-21 06:10:22 info: All unit tests passed.
+2021-03-21 06:10:41 info: All steps were completed successfully
+2021-03-21 06:10:55 info: --------------------------------------------
+2021-03-21 06:10:55 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-21 06:10:55 info: --------------------------------------------
+2021-03-21 06:10:55 info: Exercise has not yet been modified
+2021-03-21 06:10:58 info: All unit tests passed.
+2021-03-21 06:11:17 info: All steps were completed successfully
+2021-03-21 06:11:50 info: -------------------------------------------------
+2021-03-21 06:11:50 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-21 06:11:50 info: -------------------------------------------------
+2021-03-21 06:11:50 info: Exercise has not yet been modified
+2021-03-21 06:11:53 info: All unit tests passed.
+2021-03-21 06:12:14 info: All steps were completed successfully
+2021-03-21 06:12:28 info: ---------------------------------------
+2021-03-21 06:12:28 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-21 06:12:28 info: ---------------------------------------
+2021-03-21 06:12:28 info: Exercise has not yet been modified
+2021-03-21 06:12:33 error: *** Unit Test Error Report ***
+
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: John
+
+2021-03-26 12:21:25 info: --------------------------------------------
+2021-03-26 12:21:25 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-26 12:21:25 info: --------------------------------------------
+2021-03-26 12:21:25 info: Exercise has not yet been modified
+2021-03-26 12:21:29 info: All unit tests passed.
+2021-03-26 12:21:52 info: All steps were completed successfully
+2021-03-26 12:22:19 info: ----------------------------------------
+2021-03-26 12:22:19 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-03-26 12:22:19 info: ----------------------------------------
+2021-03-26 12:22:19 info: Exercise has not yet been modified
+2021-03-26 12:22:22 info: All unit tests passed.
+2021-03-26 12:22:38 info: All steps were completed successfully
+2021-03-26 12:23:05 info: -------------------------------------------------
+2021-03-26 12:23:05 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-26 12:23:05 info: -------------------------------------------------
+2021-03-26 12:23:05 info: Exercise has not yet been modified
+2021-03-26 12:23:08 info: All unit tests passed.
+2021-03-26 12:23:24 info: All steps were completed successfully
+2021-03-26 12:23:38 info: ---------------------------------------
+2021-03-26 12:23:38 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-26 12:23:38 info: ---------------------------------------
+2021-03-26 12:23:38 info: Exercise has not yet been modified
+2021-03-26 12:23:42 error: *** Unit Test Error Report ***
+
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: John
+
+2021-03-26 12:24:44 info: ---------------------------------------------
+2021-03-26 12:24:44 info: >>> Running Unit Test `ex5-rollDiceChain` <<<
+2021-03-26 12:24:44 info: ---------------------------------------------
+2021-03-26 12:24:44 warn: A unit test file was not provided.
+2021-03-26 12:24:52 error: *** ESLint Report ***
+
+ex5-rollDiceChain.js
+  29:7  error  Parsing error: Identifier 'rollDice' has already been declared
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-03-26 12:43:49 info: --------------------------------------------
+2021-03-26 12:43:49 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-26 12:43:49 info: --------------------------------------------
+2021-03-26 12:43:49 info: Exercise has not yet been modified
+2021-03-26 12:43:52 info: All unit tests passed.
+2021-03-26 12:44:10 info: All steps were completed successfully
+2021-03-26 10:29:08 info: --------------------------------------------
+2021-03-26 10:29:08 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-26 10:29:08 info: --------------------------------------------
+2021-03-26 10:29:08 info: Exercise has not yet been modified
+2021-03-26 10:29:12 info: All unit tests passed.
+2021-03-26 10:29:31 info: All steps were completed successfully
+2021-03-26 10:43:23 info: ---------------------------------------
+2021-03-26 10:43:23 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-26 10:43:23 info: ---------------------------------------
+2021-03-26 10:43:28 error: *** Unit Test Error Report ***
+
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: John
+
+2021-03-26 10:43:58 info: -------------------------------------------------
+2021-03-26 10:43:58 info: >>> Running Unit Test `ex2-checkDoubleDigits` <<<
+2021-03-26 10:43:58 info: -------------------------------------------------
+2021-03-26 10:44:01 info: All unit tests passed.
+2021-03-26 10:44:18 info: All steps were completed successfully
+2021-03-26 10:44:31 info: ----------------------------------------
+2021-03-26 10:44:31 info: >>> Running Unit Test `ex3-rollDice` <<<
+2021-03-26 10:44:31 info: ----------------------------------------
+2021-03-26 10:44:34 info: All unit tests passed.
+2021-03-26 10:44:52 info: All steps were completed successfully
+2021-03-26 10:45:07 info: --------------------------------------------
+2021-03-26 10:45:07 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-03-26 10:45:07 info: --------------------------------------------
+2021-03-26 10:45:10 info: All unit tests passed.
+2021-03-26 10:45:28 info: All steps were completed successfully
+2021-03-26 10:47:12 info: ---------------------------------------------
+2021-03-26 10:47:12 info: >>> Running Unit Test `ex5-rollDiceChain` <<<
+2021-03-26 10:47:12 info: ---------------------------------------------
+2021-03-26 10:47:12 warn: A unit test file was not provided.
+2021-03-26 10:47:32 info: All steps were completed successfully
+2021-03-26 09:50:57 info: ---------------------------------------
+2021-03-26 09:50:57 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-26 09:50:57 info: ---------------------------------------
+2021-03-26 09:51:02 error: *** Unit Test Error Report ***
+
+- getAnonName should return a resolved promise when called with a string argument
+  Expected: John Doe
+  Received: John
+
+2021-03-26 09:56:40 info: ---------------------------------------
+2021-03-26 09:56:40 info: >>> Running Unit Test `ex1-johnWho` <<<
+2021-03-26 09:56:40 info: ---------------------------------------
+2021-03-26 09:56:43 info: All unit tests passed.
+2021-03-26 09:57:03 info: All steps were completed successfully

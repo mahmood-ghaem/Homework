@@ -1,0 +1,12 @@
+2021-03-28 07:41:29 info: ---------------------------------------------
+2021-03-28 07:41:29 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 07:41:29 info: ---------------------------------------------
+2021-03-28 07:41:37 error: *** Unit Test Error Report ***
+
+- programmerFun should use try/catch
+
+2021-03-28 07:47:14 info: ---------------------------------------------
+2021-03-28 07:47:14 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 07:47:14 info: ---------------------------------------------
+2021-03-28 07:47:20 info: All unit tests passed.
+2021-03-28 07:47:38 info: All steps were completed successfully

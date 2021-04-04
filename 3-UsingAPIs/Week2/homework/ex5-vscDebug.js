@@ -1,7 +1,7 @@
 'use strict';
 /*------------------------------------------------------------------------------
 Use the VSCode Debugger to fix the bugs
---------------------------------------------------------------- --------------*/
+------------------------------------------------------------------------------*/
 const fetch = require('node-fetch');
 
 async function getData(url) {
@@ -12,7 +12,9 @@ async function getData(url) {
 function renderLaureate({ knownName, birth, death }) {
   console.log(`\nName: ${knownName.en}`);
   console.log(`Birth: ${birth.date}, ${birth.place.locationString}`);
-  console.log(`Death: ${death.date}, ${death.place.locationString}`);
+  if (death) {
+    console.log(`Death: ${death.date}, ${death.place.locationString}`);
+  }
 }
 
 function renderLaureates(laureates) {
@@ -21,7 +23,7 @@ function renderLaureates(laureates) {
 
 async function fetchAndRender() {
   try {
-    const laureates = getData(
+    const { laureates } = await getData(
       'http://api.nobelprize.org/2.0/laureates?birthCountry=Netherlands&format=json&csvLang=en'
     );
     renderLaureates(laureates);

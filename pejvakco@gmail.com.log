@@ -1,0 +1,90 @@
+2021-03-28 07:41:29 info: ---------------------------------------------
+2021-03-28 07:41:29 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 07:41:29 info: ---------------------------------------------
+2021-03-28 07:41:37 error: *** Unit Test Error Report ***
+
+- programmerFun should use try/catch
+
+2021-03-28 07:47:14 info: ---------------------------------------------
+2021-03-28 07:47:14 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-28 07:47:14 info: ---------------------------------------------
+2021-03-28 07:47:20 info: All unit tests passed.
+2021-03-28 07:47:38 info: All steps were completed successfully
+2021-03-28 10:25:45 info: ------------------------------------------
+2021-03-28 10:25:45 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 10:25:45 info: ------------------------------------------
+2021-03-28 10:25:52 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:79  error  <img> is missing required "src" attribute  element-required-attributes
+    11:79  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-28 10:28:55 info: ------------------------------------------
+2021-03-28 10:28:55 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 10:28:55 info: ------------------------------------------
+2021-03-28 10:29:01 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:79  error  <img> is missing required "src" attribute  element-required-attributes
+    11:79  error  <img> is missing required "alt" attribute  wcag/h37
+  
+  ✖ 2 problems (2 errors, 0 warnings)
+  
+
+2021-03-28 10:29:52 info: ------------------------------------------
+2021-03-28 10:29:52 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 10:29:52 info: ------------------------------------------
+2021-03-28 10:29:58 error: *** Unit Test Error Report ***
+
+- pokemonApp HTML should be syntactically valid
+  inline
+    11:79  error  Attribute "src" has invalid value ""  attribute-allowed-values
+  
+  ✖ 1 problem (1 error, 0 warnings)
+  
+
+2021-03-28 10:35:43 info: ------------------------------------------
+2021-03-28 10:35:43 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-28 10:35:43 info: ------------------------------------------
+2021-03-28 10:35:49 info: All unit tests passed.
+2021-03-28 10:36:07 info: All steps were completed successfully
+2021-03-29 12:52:42 info: -----------------------------------------
+2021-03-29 12:52:42 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-29 12:52:42 info: -----------------------------------------
+2021-03-29 12:52:46 info: All unit tests passed.
+2021-03-29 12:53:02 info: All steps were completed successfully
+2021-03-29 12:53:13 info: ----------------------------------------
+2021-03-29 12:53:13 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-03-29 12:53:13 info: ----------------------------------------
+2021-03-29 12:53:16 info: All unit tests passed.
+2021-03-29 12:53:32 info: All steps were completed successfully
+2021-03-29 11:39:36 info: ---------------------------------------------
+2021-03-29 11:39:36 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-03-29 11:39:36 info: ---------------------------------------------
+2021-03-29 11:39:48 info: All unit tests passed.
+2021-03-29 11:40:11 info: All steps were completed successfully
+2021-03-29 11:40:25 info: ------------------------------------------
+2021-03-29 11:40:25 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-03-29 11:40:25 info: ------------------------------------------
+2021-03-29 11:40:34 info: All unit tests passed.
+2021-03-29 11:40:55 info: All steps were completed successfully
+2021-03-29 11:41:10 info: -----------------------------------------
+2021-03-29 11:41:10 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-03-29 11:41:10 info: -----------------------------------------
+2021-03-29 11:41:15 info: All unit tests passed.
+2021-03-29 11:41:37 info: All steps were completed successfully
+2021-03-29 11:41:50 info: ----------------------------------------
+2021-03-29 11:41:50 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-03-29 11:41:50 info: ----------------------------------------
+2021-03-29 11:41:55 info: All unit tests passed.
+2021-03-29 11:42:16 info: All steps were completed successfully
+2021-03-29 11:42:31 info: ----------------------------------------
+2021-03-29 11:42:31 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-03-29 11:42:31 info: ----------------------------------------
+2021-03-29 11:42:31 warn: A unit test file was not provided.
+2021-03-29 11:42:52 info: All steps were completed successfully
